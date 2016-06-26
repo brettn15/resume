@@ -513,3 +513,14 @@ there.
     color: #222;
     background-color: transparent;
   }
+
+.resumeimage {
+  width: 20% inherit;
+   border: 3px solid #73AD21;
+}
+
+.custom-image {
+  padding:1px;
+  border:1px solid #021a40;
+  height: 170px;
+}
