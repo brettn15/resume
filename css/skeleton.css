@@ -513,3 +513,11 @@ there.
     color: #222;
     background-color: transparent;
   }
+
+
+
+.custom-image {
+  padding:1px;
+  border:1px solid #021a40;
+  height: 170px;
+}
