@@ -305,8 +305,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
- /*  margin-bottom: 1rem;
-}
+  margin-bottom: 0rem; }
 
 
 /* Code
@@ -515,9 +514,10 @@ there.
     background-color: transparent;
   }
 
+
+
 .custom-image {
   padding:1px;
   border:1px solid #021a40;
-  background-color:#ff0;
-  margin-top:5%;
+  height: 170px;
 }
