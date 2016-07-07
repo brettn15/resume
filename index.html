@@ -33,48 +33,43 @@
 
 </head>
 <body>
-<div class="title">
-  <div class="container">
-    <div class="row">
-     <div class="twelve columns" style="margin-top: 5%">
-       <h1 class="separator" id="top">Brett Nowak</h1>
-    </div>
-  </div>
-</div>
+  <section id="hero" class="hero u-full-width">
+    <div class="container" style="height:100vh;">
+      <div class="row" >
+         <div class="twelve columns">
+           <h1 class="hero-title">Brett Nowak</h1>
+        </div>
+        <div class="row">
+          <h4 class="hero-heading">Product Manager who likes to ship impactful features and learn new things</h4>
+          <a class="button button-primary" href="file:///Users/brettnowak/Dropbox/Life%20and%20work/atom/resume/index.html#resume">Learn more</a>
+          <a class="button button-primary" href="file:///Users/brettnowak/Dropbox/Life%20and%20work/atom/resume/index.html#contact" target="_top">  Email  </a>
+        </div>
+     </div>
+   </div>
 
-<!-- hero section -->
-<div class="section header">
-  <div class="container">
-    <div class="row">
-      <h4 class="hero-heading">Product Manager who likes to ship impactful features and learn new things</h4>
-      <a class="button button-primary" href="https://brettn15.github.io/resume/#resume">Learn more</a>
-      <a class="button button-primary" href="mailto:nowak.brett@gmail.com" target="_top">  Email  </a>
-    </div>
-  </div>
-</div>
 <!-- three sections part
-    <div class="row">
-      <div class="one-third column value">
-        <h2 class="value-multiplier">67%</h2>
-        <h5 class="value-heading">Purchase Increase</h5>
-        <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-      </div>
-      <div class="one-third column value">
-        <h2 class="value-multiplier">90%</h2>
-        <h5 class="value-heading">Multi-device Users</h5>
-        <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-      </div>
-      <div class="one-third column value">
-        <h2 class="value-multiplier">66%</h2>
-        <h5 class="value-heading">Sad Users</h5>
-        <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-      </div>
-    </div>-->
-
-
-    <!-- other resume section -->
-<div section="resume">
+<div section="boxes">
   <div class="container">
+      <div class="row">
+        <div class="one-third column value">
+          <h5 class="value-heading">Product management</h5>
+          <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
+        </div>
+        <div class="one-third column value">
+          <h5 class="value-heading">Strategic analysis</h5>
+          <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
+        </div>
+        <div class="one-third column value">
+          <h5 class="value-heading">Team leadership</h5>
+          <p class="value-description">Percentage of users that are frustrated with page load times.</p>
+        </div>
+      </div>
+  </div>
+</div> -->
+    <!-- other resume section -->
+
+<div class="container">
+  <div section="resume" style="text-align:left; padding-top:13%;">
       <div class="row">
             <div class="twelve columns">
                 <a name="resume"></a><h3>Work experience</h3>
@@ -130,46 +125,22 @@
              </div>
           </div>
 
-        <!-- table section
-        <div class="row">
-              <div class="twelve columns">
-                  <h3>Skills</h3>
+        <!-- images section
+
+        <div class="section categories">
+            <div class="container">
+              <h3 >Responsive Images</h3>
+              <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
+              <div class="row">
+                <div class="one-half column category">
+                  <img class="u-max-full-width" src="images/feather.svg">
+                </div>
+                <div class="one-half column category">
+                  <img class="u-max-full-width" src="images/pens.svg">
+                </div>
               </div>
-        </div>
-        <div class="row">
-          <table class="u-full-width">
-             <thead>
-              <tr>
-                <th>Skill</th>
-                <th>Level</th>
-                <th>Projects</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>SQL</td>
-                <td>Proficient</td>
-                <td>
-                    <ul>
-                      <li>Mode reports</li>
-                      <li>A/B test analysis</li>
-                      <li>Code red analysis</li>
-                    </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>Excel</td>
-                <td>Strong</td>
-                <td>
-                    <ul>
-                      <li>Funnels</li>
-                      <li>Data tables</li>
-                      <li>Sensitivity tables</li>
-                    </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            </div>
+          </div>
         </div>-->
 
 
@@ -189,17 +160,41 @@
       <img class="custom-image" style="height:120px; padding:1px; border:1px solid #021a40;" src="../resume/images/resume.jpg">
   </div> -->
 <!-- Primary buttons -->
-
-
-    <div class="row">
-       <div class="twelve columns" style="margin-top:2%; margin-bottom: 5%">
-            <a class="button button-primary" href="mailto:nowak.brett@gmail.com" target="_top">Email</a>
-            <a class="button button-primary" href="https://www.linkedin.com/in/brett-nowak-8920675" target="_top">LinkedIn</a>
-            <a class="button button-primary" href="https://www.facebook.com/brett.nowak" target="_top">Facebook</a>
-          </div>
+<!-- The above form looks like this -->
+<div class="row">
+      <div class="twelve columns">
+        <h3>Contact me</h3>  <a href="#" name="contact"></a>
       </div>
-    </div>
+</div>
+
+<form>
+<div class="row">
+  <div class="six columns">
+    <label for="exampleEmailInput">Your email</label>
+    <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+  </div>
+  <div class="six columns">
+    <label for="exampleRecipientInput">Reason for contacting</label>
+    <select class="u-full-width" id="exampleRecipientInput">
+      <option value="Option 1">Questions</option>
+      <option value="Option 2">Admiration</option>
+      <option value="Option 3">Can I get your number?</option>
+    </select>
   </div>
 </div>
+<label for="exampleMessage">Message</label>
+<textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+<label class="example-send-yourself-copy">
+  <input type="checkbox">
+  <span class="label-body">Send a copy to yourself</span>
+</label>
+<input class="button-primary" type="submit" value="Submit">
+</form>
+
+<!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+
+
 </body>
 </html>
