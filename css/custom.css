@@ -294,3 +294,147 @@ nav.main-nav.stickytop {
   font-size: 1.5rem;
   font-weight:bold;
 }
+
+/* =Navigation
+-------- */
+
+.navigation {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  height: 100%;
+  z-index: 3;
+  width: 320px;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.navigation.active {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.navigation ul {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  background: #222;
+}
+.navigation ul li {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navigation ul li a {
+  display: block;
+  height: 100%;
+  padding: 10px 0;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+}
+
+.navigation ul li a.current,
+.navigation ul li a:hover {
+  color: #222;
+  background-color: white;
+}
+
+.navigation .menu-icon {
+  color: white;
+  font-size: 30px;
+  line-height: 1em;
+
+  position: absolute;
+  left: 100%;
+  padding: 20px;
+
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -ms-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.navigation .menu-icon.active {
+  background-color: rgba(0,0,0, .3);
+}
+.navigation .menu-icon:hover {
+  color: #222;
+  background-color: transparent;
+}
+
+
+
+.custom-image {
+padding:1px;
+border:1px solid #021a40;
+height: 170px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}

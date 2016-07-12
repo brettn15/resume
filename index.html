@@ -25,6 +25,10 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
 
+  <!-- Javascript <script defer type="text/javascript" src="js/script.js"></script>
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="icon" type="image/png" href="images/favicon.png">
@@ -32,15 +36,15 @@
 </head>
 <body>
 
-  <nav class="main-nav">
-      <div class="nav-container">
-        <a href="#">Download</a>
-        <a href="file:///Users/brettnowak/Dropbox/atom/grit/june_report.html">Example report</a>
-        <a href="#">About</a>
-        <a href="#">Profile</a>
-        <a href="#">Contact</a>
-      </div>
-  </nav>
+  <ul class="topnav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li class="icon">
+      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+    </li>
+  </ul>
 
 
   <section id="hero" class="hero u-full-width" >
@@ -144,7 +148,10 @@
           </div>
         </div>
   </div>
-
-
+  <script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
 </body>
 </html>
