@@ -43,14 +43,14 @@
     height:100vh;
   }
   .section {
-    padding: 14rem 0 15rem;
-  .hero-row {
+    padding: 10rem 0 15rem;
+  .16-row {
     height:100vh;
   }
 }
   }
   .hero {
-    padding: 16rem 0 14rem;
+    padding: 10rem 0 14rem;
   }
   .section-description {
     max-width: 60%;
@@ -59,7 +59,7 @@
   }
 
   .categories {
-    padding: 15rem 0 8rem;
+    padding: 10rem 0 8rem;
   }
 
 }
