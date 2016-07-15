@@ -50,7 +50,6 @@
   }
   .hero-row {
     height:100vh;
-    max-height: 200px;
   }
   .section {
     padding: 10rem 0 15rem;
@@ -60,7 +59,7 @@
 }
   }
   .hero {
-    padding: 10rem 0 14rem;
+    padding: 7rem 0 14rem;
   }
   .section-description {
     max-width: 60%;
