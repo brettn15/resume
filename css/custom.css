@@ -50,6 +50,7 @@
   }
   .hero-row {
     height:100vh;
+    max-height: 200px;
   }
   .section {
     padding: 10rem 0 15rem;
