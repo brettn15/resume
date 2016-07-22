@@ -7,20 +7,25 @@
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-  padding: 8rem 0 7rem;
+  /*padding: 8rem 0 7rem;*/
   text-align: center;
 }
 .section-heading,
 .section-description {
   margin-bottom: 1.2rem;
+  text-align: left;
+
+
 }
 
 .section-resume {
+  border-top: 1px solid #eee;
   margin-top: 1.2rem;
 }
 
 .section-hero {
   margin-top: 1.2rem;
+
 }
 
 
@@ -350,4 +355,31 @@ ul.topnav li.icon {display: none;}
 
 .yesterday {
   color:red;
+}
+
+.home-image-wrapper {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+@media (min-width: 550px)
+.home-image-wrapper {
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    left: 0;
+    max-height: none;
+    border: 1px solid #eee;
+}
+
+.sub-header {
+  text-align:left;
+  padding-top:6%;
+}
+
+.resume-section {
+  border-top: 1px solid #eee;
 }
